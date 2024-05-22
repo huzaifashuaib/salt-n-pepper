@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/*=============== REUSABLE CSS CLASSES ===============*/
+.container {
+    max-width: 1100px;
+    margin-inline: 1.5rem;
+    margin: 0 auto;
+}
+
+.main {
+    overflow: hidden;
+}
+
+
+/* Header */
+
+.header {
+
+    width: 100%;
+    background-color: black;
+    transition: box-shadow .4s;
+}
+
+.nav-logo {
+    width: 170px;
+}
+
+.nav {
+    position: relative;
+    height: 5.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-open-btn {
+    color: white;
+    display: none;
+}
+
+.nav-open-btn,
+.nav-open-close {
+    font-size: 1.5rem;
+    cursor: pointer;
+
+}
+
+.mobile-btn {
+    display: none;
+}
+
+
+@media only screen and (max-width: 1023px) {
+    .nav-menu {
+        position: fixed;
+        top: 0;
+        left: -100%;
+        width: 78%;
+        min-height: 100vh;
+        background-color: rgba(220, 217, 217, 0.874);
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        padding: 6rem 2rem 3rem 3rem;
+        transition: left .4s;
+    }
+
+    .nav-open-btn {
+        display: block;
+    }
+
+
+    .nav-link {
+        text-align: center;
+    }
+
+    .nav-order-btn {
+        display: none;
+    }
+
+    .mobile-btn {
+        display: block;
+    }
+
+    .mobile-franchise {
+        width: 100%;
+    }
+
+}
+
+
+/* .nav-links-sec .nav-links{
+    display: flex;
+    flex-direction: row;
+    colu
+} */
+
+.btn {
+    cursor: pointer;
+    border: 1px solid rgba(242, 242, 242, 0.829);
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    outline: none;
+    background-color: black;
+}
+
+.nav-order-btn {
+    border: none;
+    outline: 0;
+    background-color: red;
+}
+
+.nav-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 8px;
+}
+
+.btn i {
+    transition: transform .4s;
+}
+
+.btn:hover i {
+    transform: translateX(.5rem);
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: column;
+    row-gap: 3rem;
+}
+
+.nav-link a {
+    color: rgb(225, 22, 22);
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.nav-link a:hover {
+    text-decoration: underline;
+}
+
+.nav-close {
+    position: absolute;
+    top: 1.8rem;
+    right: 12px;
+}
+
+.show-menu {
+    left: 0;
+}
+
+.btn {
+    padding: 15px 10px;
+    border-radius: 70px;
+}
+
+
+/* Media Queries */
+
+/* For Large Screen */
+
+
+@media only screen and (min-width: 1023px) {
+
+    .nav-open-btn,
+    .nav-close {
+        display: none;
+    }
+
+    .nav-links {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        column-gap: 2rem;
+    }
+
+    .nav-link a {
+        font-size: 17px;
+        color: white;
+        font-weight: 500;
+    }
+
+    .nav-menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 3rem;
+    }
+}
+
+/* Main CSS */
+
+.swiper {
+    width: 100%;    
+}
+
+
+/* Intro CSS */
+
+.intro{
+    background-color: black;
+    color: white;
+    padding: 200px 0px;
+}
+.card{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 22px;
+}
+.card .branch-img{
+    background-color: white;
+    border-radius:8px;
+    padding: 10px 20px;
+}
+.card button{
+    width: 60%;
+}
+.branch .swiper-slide{
+    background-color: red ;
+    width: 300px !important;
+}
+
+.branches{
+    width: 50%;
+}
+/* 
+.swiper-slide{
+    width: 2;
+} */
+
+
