@@ -228,10 +228,28 @@ img {
 .intro{
     background-color: black;
     color: white;
-    padding: 200px 0px;
+    padding: 100px 0px;
+}
+.heading{
+    margin-bottom:30px;
+}
+.heading h1,.heading h2,.heading p{
+    text-align: center;
+}
+.branch-swiper{
+    background-color: red;
+    width: 70%;
+
+}
+.branch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 30px;
+    margin-top: 20px;
 }
 .card{
-    width: 200px;
+    width: 300px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -244,19 +262,25 @@ img {
     padding: 10px 20px;
 }
 .card button{
-    width: 60%;
-}
-.branch .swiper-slide{
-    background-color: red ;
-    width: 300px !important;
+    width:70%;
 }
 
-.branches{
-    width: 50%;
+
+
+/* Franchise  Section */
+
+.franchise{
+    position: relative;
+    padding: 150px 0px;
+    background-color: #0F0F0F;
+    color: white;
+    z-index: 100;
 }
-/* 
-.swiper-slide{
-    width: 2;
-} */
-
-
+.snap-img{
+    position: absolute;
+    top: 20px;
+    right: 60px;
+}
+.snap-img img{
+    width: 300px;
+}

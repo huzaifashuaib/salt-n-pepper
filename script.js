@@ -44,10 +44,17 @@ let swiper = new Swiper('.home-swiper', {
 
 let swiperBranch = new Swiper('.branch-swiper', {
     direction: 'horizontal',
-    loop: true,
-    watchSlidesProgress: true,
-    // initialSlide: 1,
-    // centeredSlides: true,
-    // slidesPerView: 1,
-    spaceBetween: 30,
+            loop: true, // Enable looping
+            initialSlide: 1, // Start with the second slide
+            centeredSlides: true, // Center the active slide
+            slidesPerView: 1, // Number of slides to show
+            // spaceBetween: 30, // Space between slides
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
 });
