@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: black;
+}
+
 
 ul {
     list-style: none;
@@ -219,36 +223,42 @@ img {
 /* Main CSS */
 
 .swiper {
-    width: 100%;    
+    width: 100%;
 }
 
 
 /* Intro CSS */
 
-.intro{
+.intro {
     background-color: black;
     color: white;
     padding: 100px 0px;
 }
-.heading{
-    margin-bottom:30px;
+
+.heading {
+    margin-bottom: 30px;
 }
-.heading h1,.heading h2,.heading p{
+
+.heading h1,
+.heading h2,
+.heading p {
     text-align: center;
 }
-.branch-swiper{
-    background-color: red;
-    width: 70%;
+
+.branch-swiper {
+    width: 100%;
 
 }
-.branch{
+
+.branch {
     display: flex;
     justify-content: center;
     align-items: center;
     column-gap: 30px;
     margin-top: 20px;
 }
-.card{
+
+.card {
     width: 200px;
     display: flex;
     flex-direction: column;
@@ -256,66 +266,77 @@ img {
     align-items: center;
     row-gap: 22px;
 }
-.card .branch-img{
+
+.card .branch-img {
     background-color: white;
-    border-radius:8px;
+    border-radius: 8px;
     padding: 10px 20px;
 }
-.card .branch-img img{
+
+.card .branch-img img {
     width: 250px;
 }
-.card button{
-    width:70%;
+
+.card button {
+    width: 70%;
 }
 
 
 
 /* Franchise  Section */
-.brand-name-express{
+.brand-name-express {
     text-align: center;
     margin-bottom: 40px;
 }
-.franchise{
+
+.franchise {
     position: relative;
     padding: 100px 0px;
     background-color: #0F0F0F;
     color: white;
     z-index: 100;
 }
-.snap-img{
+
+.snap-img {
     position: absolute;
-    top: 20px;
-    right: 60px;
+    top: 40px;
+    right: 50px;
 }
-.snap-img img{
+
+.snap-img img {
     width: 350px;
 }
-.branch-1{
+
+.branch-1 {
     width: 80%;
     margin: 0 auto;
     display: flex;
     column-gap: 30px;
     justify-content: center;
 }
-.contact-info{
+
+.contact-info {
     width: 50%;
     display: flex;
     flex-direction: column;
     row-gap: 5px;
 }
-.franchise-btn{
+
+.franchise-btn {
     width: 50%;
     margin-top: 40px;
 }
-.image-sec{
+
+.image-sec {
     width: 50%;
 
 }
-.branch-img img{
+
+.branch-img img {
     width: 100%;
 }
 
-.franchise{
+.franchise {
     display: flex;
     flex-direction: column;
     row-gap: 60px;
@@ -324,65 +345,306 @@ img {
 
 /* Express Franches */
 
-.more-franchise{
+.more-franchise {
     background-color: black;
     color: white;
     position: relative;
     padding: 50px 0px;
 }
-.branches-express{
+
+.branches-express {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     column-gap: 40px;
     row-gap: 30px;
 }
-.franch-1{
+
+.franch-1 {
     width: 25%;
 }
-.express-info{
+
+.express-info {
     text-align: center;
     margin: 30px 0px;
 }
-.express-btn{
-    margin-top:15px;
+
+.express-btn {
+    margin-top: 15px;
     padding: 15px 25px;
 }
-.express-snap{
+
+.express-snap {
     position: absolute;
     top: 0;
 }
-.express-snap img{
+
+.express-snap img {
     width: 350px;
 }
+
 /* Village Franchise */
-.village-name-express{
+.village-name-express {
     text-align: center;
     margin: 40px 0px;
 }
-.village-franches{
+
+.village-franches {
     padding: 40px 0px;
     background-color: #0F0F0F;
     color: white;
 }
-.village-info{
+
+.village-info {
     display: flex;
     justify-content: center;
     align-items: center;
     column-gap: 40px;
 
 }
-.village-img{
+
+.village-img {
     width: 50%;
-  
+
 }
-.info{
-width: 50%;
+
+.info {
+    width: 50%;
 }
 
 /* Coming soon */
 
-.coming-franches{
+.coming-franches {
     background-color: black;
     color: white;
+    padding: 60px 0px;
+}
+
+.coming-express {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.coming-branches {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 30px;
+}
+
+.coming-soon-branch img {
+    width: 40px;
+}
+
+.coming-soon-branch {
+    padding: 15px 0px;
+    background-color: white;
+    color: black;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+}
+
+.coming-info {
+    text-align: center;
+}
+
+
+/* social-feed */
+.social-feed {
+    background-color: black;
+    margin: 0px 10px;
+}
+
+.feed-imges {
+    display: flex;
+    column-gap: 20px;
+
+}
+
+.box-image {
+    width: 20%;
+}
+
+.feed-txt {
+    text-align: center;
+    color: white;
+    margin-bottom: 20px
+}
+
+
+/* footer */
+footer {
+    background-color: #0F0F0F;
+    color: white;
+    padding: 50px 0px;
+    position: relative;
+}
+
+.footer-snap-img {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 200px;
+}
+
+.footer {
+    margin: 0px 50px;
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+}
+
+.footer-info {
+    width: 40%;
+}
+
+.footer-img img {
+    width: 200px;
+}
+
+.footer-links {
+    width: 15%;
+}
+
+.footer-mobile {
+    width: 25%;
+}
+
+.footer-fellow {
+    width: 20%;
+}
+
+.img-google {
+    margin-top: 10px;
+    width: 150px;
+    margin-bottom: 10px;
+}
+
+.contacts p {
+
+    margin: 10px 0px;
+}
+
+.links-footer li {
+    margin: 10px 0px;
+}
+
+.icons {
+    display: flex;
+    column-gap: 20px;
+}
+
+
+
+/* Media Queries */
+@media only screen and (max-width: 400px) {
+    .nav-logo img {
+        width: 150px;
+    }
+
+    .mobile-btn {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .heading {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .heading p {
+        margin: 0 auto;
+    }
+
+    .branch-1 {
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .contact-info {
+        margin-bottom: 30px;
+    }
+
+    .branch-1 .contact-info {
+        width: 100%;
+        text-align: center;
+    }
+
+    .branch-1 .image-sec {
+        width: 100%;
+    }
+
+    .franchise-btn {
+        width: 100%;
+    }
+
+    .branches-express {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .franch-1 {
+        width: 80%;
+
+    }
+
+    .village-img {
+        width: 80%;
+    }
+
+    .village-info {
+        flex-direction: column;
+        row-gap: 50px;
+    }
+
+    .coming-branches {
+        flex-direction: column;
+        row-gap: 30px;
+
+    }
+
+    .coming-soon-branch {
+        width: 80%;
+    }
+
+    .footer {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items:center;
+        row-gap: 50px;
+    }
+
+    .footer-info {
+        width: 100%;
+    }
+
+    .footer-links {
+        width: 100%;
+    }
+
+    .footer-fellow {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-mobile{
+        width: 100%;
+    
+    }
+   
+}
+
+@media only screen and (min-width: 320px) {
+    .nav {
+        margin: 0 20px;
+    }
+
 }
