@@ -249,7 +249,7 @@ img {
     margin-top: 20px;
 }
 .card{
-    width: 300px;
+    width: 200px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -261,6 +261,9 @@ img {
     border-radius:8px;
     padding: 10px 20px;
 }
+.card .branch-img img{
+    width: 250px;
+}
 .card button{
     width:70%;
 }
@@ -268,10 +271,13 @@ img {
 
 
 /* Franchise  Section */
-
+.brand-name-express{
+    text-align: center;
+    margin-bottom: 40px;
+}
 .franchise{
     position: relative;
-    padding: 150px 0px;
+    padding: 100px 0px;
     background-color: #0F0F0F;
     color: white;
     z-index: 100;
@@ -282,5 +288,101 @@ img {
     right: 60px;
 }
 .snap-img img{
-    width: 300px;
+    width: 350px;
+}
+.branch-1{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    column-gap: 30px;
+    justify-content: center;
+}
+.contact-info{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+.franchise-btn{
+    width: 50%;
+    margin-top: 40px;
+}
+.image-sec{
+    width: 50%;
+
+}
+.branch-img img{
+    width: 100%;
+}
+
+.franchise{
+    display: flex;
+    flex-direction: column;
+    row-gap: 60px;
+}
+
+
+/* Express Franches */
+
+.more-franchise{
+    background-color: black;
+    color: white;
+    position: relative;
+    padding: 50px 0px;
+}
+.branches-express{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 40px;
+    row-gap: 30px;
+}
+.franch-1{
+    width: 25%;
+}
+.express-info{
+    text-align: center;
+    margin: 30px 0px;
+}
+.express-btn{
+    margin-top:15px;
+    padding: 15px 25px;
+}
+.express-snap{
+    position: absolute;
+    top: 0;
+}
+.express-snap img{
+    width: 350px;
+}
+/* Village Franchise */
+.village-name-express{
+    text-align: center;
+    margin: 40px 0px;
+}
+.village-franches{
+    padding: 40px 0px;
+    background-color: #0F0F0F;
+    color: white;
+}
+.village-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 40px;
+
+}
+.village-img{
+    width: 50%;
+  
+}
+.info{
+width: 50%;
+}
+
+/* Coming soon */
+
+.coming-franches{
+    background-color: black;
+    color: white;
 }
